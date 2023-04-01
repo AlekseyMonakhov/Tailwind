@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: Cambria Math, system-ui, sans-serif;
+    }
+    h1 {
+        @apply text-4xl
+    }
+    h2 {
+        @apply text-3xl
+    }
+
+    h3 {
+        @apply text-2xl
+    }
+}
+
+@layer components {
+    .text-amber-800 {
+        @apply bg-[blue]
+    }
+}
